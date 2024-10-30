@@ -19,7 +19,7 @@ Although this list of features seems basic, they are a strong foundation to test
 ### React vs. Solid
 
 1. Signals: For local state.
-1. Router: For multi-page navigation.
+1. Router: For multi-page navigation. ⚠️ (Cannot compose the navbar as clean as in React)
 1. Store: For global state.
 1. Lazy loading: To split the project code for faster page loads.
 1. Suspense: Display info during lazy load.

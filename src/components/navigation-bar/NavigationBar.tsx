@@ -21,7 +21,9 @@ export default function NavigationBar({ number }: Props) {
           src={Logo}
         />
       </A>
-      <WidgetCart number={number} />
+      <A href="/checkout">
+        <WidgetCart number={number} />
+      </A>
     </nav>
   );
 }

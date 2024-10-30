@@ -1,3 +1,12 @@
+import NavigationBar from "components/navigation-bar/NavigationBar";
+
 export default function Checkout() {
-  return <h1>Checkout</h1>;
+  return (
+    <div id="checkout">
+      <NavigationBar number={5} />
+      <div class="page">
+        <h1>Your cart</h1>
+      </div>
+    </div>
+  );
 }

@@ -11,7 +11,6 @@ export default function PriceTag({ price }: Props) {
   const locale = "sv-SE";
   const currency = "SEK";
   const formatedPrice = new Intl.NumberFormat(locale).format(price);
-  console.log("PriceTag formatedPrice (should we use memo?)", formatedPrice);
 
   return (
     <span class="price-tag">
