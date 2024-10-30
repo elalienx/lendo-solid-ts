@@ -1,5 +1,6 @@
 // Project files
-import Logo from "../assets/images/logo.svg";
+import Logo from "assets/images/logo.svg";
+import WidgetCart from "components/widget-cart/WidgetCart";
 import "./navigation-bar.css";
 
 interface Props {
@@ -15,8 +16,7 @@ export default function NavigationBar({ number }: Props) {
         class="logo"
         src={Logo}
       />
-      <p>Items in cart #{number}</p>
-      {/* <ButtonCart number={number} /> */}
+      <WidgetCart number={number} />
     </nav>
   );
 }

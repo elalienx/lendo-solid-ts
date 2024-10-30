@@ -16,8 +16,16 @@ This basic shopping cart app lets users browse products and add items to a cart 
 
 Although this list of features seems basic, they are a strong foundation to test the capabilities of Solid JS.
 
+### React vs. Solid
+
 1. Signals: For local state.
 1. Router: For multi-page navigation.
 1. Store: For global state.
 1. Lazy loading: To split the project code for faster page loads.
 1. Suspense: Display info during lazy load.
+
+### Other frontend tooling
+
+1. [Vite TS Config path](https://www.npmjs.com/package/vite-tsconfig-paths): For better TypeScript imports. ✅
+1. [FontAwesome](): Icon library. ✅
+1. [Vitest](): To add unit testing to the project.
