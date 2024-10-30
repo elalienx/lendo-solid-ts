@@ -1,0 +1,8 @@
+#checkout {
+  .content-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-medium);
+    align-items: flex-start;
+  }
+}
