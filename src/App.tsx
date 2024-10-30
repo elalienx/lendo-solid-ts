@@ -16,8 +16,8 @@ export default function App() {
 
   return (
     <div class="app">
-      <NavigationBar number={5} />
       <Router>
+        {/* <NavigationBar number={5} /> */}
         <Route path="/" component={() => HomePage} />
         <Route path="/product/:id" component={() => ProductPage} />
         <Route path="/checkout" component={Checkout} />

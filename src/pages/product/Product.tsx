@@ -2,10 +2,10 @@
 import { useParams } from "@solidjs/router";
 
 // Project files
-import type Product from "types/Product";
+import type ProductType from "types/Product";
 
 interface Props {
-  data: Product[];
+  data: ProductType[];
 }
 
 export default function Product({ data }: Props) {
