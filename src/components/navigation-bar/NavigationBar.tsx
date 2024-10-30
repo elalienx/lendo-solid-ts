@@ -1,3 +1,6 @@
+// Node modules
+import { A } from "@solidjs/router";
+
 // Project files
 import Logo from "assets/images/logo.svg";
 import WidgetCart from "components/widget-cart/WidgetCart";
@@ -11,11 +14,13 @@ interface Props {
 export default function NavigationBar({ number }: Props) {
   return (
     <nav class="navigation-bar">
-      <img
-        alt="The company logo with the text Shopping Cart"
-        class="logo"
-        src={Logo}
-      />
+      <A href="/">
+        <img
+          alt="The company logo with the text Shopping Cart"
+          class="logo"
+          src={Logo}
+        />
+      </A>
       <WidgetCart number={number} />
     </nav>
   );

@@ -18,8 +18,8 @@ export default function App() {
     <div class="app">
       <NavigationBar number={5} />
       <Router>
-        <Route path="/" component={Home} />
-        <Route path="/product/:id" component={Product} />
+        <Route path="/" component={() => HomePage} />
+        <Route path="/product/:id" component={() => ProductPage} />
         <Route path="/checkout" component={Checkout} />
         <Route path="*" component={Page404} />
       </Router>
