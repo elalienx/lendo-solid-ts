@@ -11,6 +11,7 @@ interface Props {
 export default function Product({ data }: Props) {
   // Global state
   const params = useParams();
+  console.log(data);
 
   return (
     <div id="product">
