@@ -1,8 +1,12 @@
 /* @refresh reload */
-import { render } from 'solid-js/web'
-import './index.css'
-import App from './App.tsx'
+// Node modules
+import { render } from "solid-js/web";
 
-const root = document.getElementById('root')
+// Project files
+import "./index.css";
+import App from "./App.tsx";
 
-render(() => <App />, root!)
+// Properties
+const root = document.getElementById("root");
+
+render(() => <App />, root!);
